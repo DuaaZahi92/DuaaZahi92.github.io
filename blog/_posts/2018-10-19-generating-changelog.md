@@ -5,6 +5,8 @@ comments: true
 
 ## GitHub PR title
 
+It is very important to choose meaningful pull request title because we have multiple commits inside a PR so it is very hard to get what this pull request will do. So lets start with how to define a meaningful pull request title.
+
 ### Title Format
 
 Github PR title has a special format that includes a type and a subject:
