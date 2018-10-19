@@ -57,9 +57,7 @@ Following are the conventional PR types that you can use while creating a PR:
 
 ## Generating Changelog
 
-### Getting started
-
-We use [git-chlog](https://github.com/git-chglog/git-chglog) to generate the changelog for the git repository.
+Now lets use the tool to generate the changelog. We will use [git-chlog](https://github.com/git-chglog/git-chglog) to generate the changelog for the git repository.
 
 > You must follow the PR title convention described in the previous section for this tool to work
 
