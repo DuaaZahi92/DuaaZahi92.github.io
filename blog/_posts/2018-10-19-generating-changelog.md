@@ -9,7 +9,7 @@ comments: true
 
 Github PR title has a special format that includes a type and a subject:
 
-```
+```html
 <type>: <subject>
 ```
 
@@ -59,7 +59,7 @@ Following are the conventional PR types that you can use while creating a PR:
 
 We use [git-chlog](https://github.com/git-chglog/git-chglog) to generate the changelog for the git repository.
 
-> You must follow the commit message convention described in the article below for this tool to work
+> You must follow the PR title convention described in the previous section for this tool to work
 
 ### Installation
 
