@@ -8,7 +8,10 @@ $string: #fc880f;
 $class: #7b72e9;
 
 pre, code {
+  padding: 1px 5px;
   font-family: $mono;
+  background-color: $background;
+  border: 1px solid $gray-light;
 }
 
 p,
@@ -37,6 +40,12 @@ pre {
   .lineno {
     padding-right: 1.5rem;
   }
+}
+
+pre.highlight code {
+  border: initial;
+  padding: initial;
+  background: initial;
 }
 
 div.highlight {
