@@ -1,0 +1,35 @@
+---
+title: Contact
+---
+
+<header class="about mar-tb-7">
+
+    <!--<img class="about__image" src="{{ site.baseurl }}/img/me.jpeg">-->
+    <div class="about__content pad-0">
+
+        <h1>Duaa Beni Jaber</h1>
+        <p class="about__head">
+
+        </p>
+
+        <div class="about__description">
+
+        </div>
+
+        <div class="about__description">
+
+        </div>
+    </div>
+</header>
+
+<section id="contact" class="mar-b-7">
+    <h3 class="section__title">Contact me on</h3>
+    <div class="post-list">
+        {% for item in site.about %}
+        <a target="_blank" class="post link-{{ item.class }}" href="{{ item.url }}">
+            <span class="post__title">{{ item.name }}</span>
+            <span class="post__date">{{ item.username }}</span>
+        </a>
+        {% endfor %}
+    </div>
+</section>
